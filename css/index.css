@@ -1,0 +1,546 @@
+/* 상단 */
+section#cover {
+  
+  height: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+} 
+section#cover header {
+  
+}
+section#cover header div.wrap {
+  
+}
+section#cover header div.wrap nav {
+  
+}
+section#cover header div.wrap nav h1 {
+  text-align: center;
+}
+section#cover header div.wrap nav h1 a {
+}
+section#cover header div.wrap nav ul {
+  
+  align-items: center;
+  width: 1245px;
+  justify-content: right;
+}
+section#cover header div.wrap nav ul li {
+  
+  font-size: 20px;
+}
+section#cover header div.wrap nav ul li a {
+  
+  padding-left: 60px;
+}
+/* 타이틀 */
+section#cover div.title {
+  
+  height: 100%;
+}
+section#cover div.title div.wrap {
+  
+  height: 100%;
+  display: flex;
+  align-items: center;
+} 
+section#cover div.title div.wrap h2 {
+  
+  font-size: 162px;
+  font-weight: 500;
+}
+/* 어바웃 */
+section#aboutme {
+  height: 100%;
+}
+section#aboutme div.wrap {
+  
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+}
+section#aboutme div.wrap h2 {
+  font-size: 80px;
+  grid-column: 1;
+  grid-row: 1;
+}
+section#aboutme div.wrap h2::before {
+  content:"01";
+  font-size: 130px;
+}
+section#aboutme div.wrap figure {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+}
+section#aboutme div.wrap figure::before {
+  /*! content:""; */
+  display: block;
+  width: 843px;
+  height: 391px;
+  background-color: #cce7f3;
+  position: absolute;
+  top:79px;
+  left: -354px;
+  border-radius: 0 100px 100px 0;
+}
+section#aboutme div.wrap figure img {
+  grid-column: 2;
+  grid-row: 2;
+  /*! height: 432px; */
+  align-content: center;
+}
+section#aboutme div.wrap ul {
+  grid-column: 2;
+  grid-row: 2;
+  height: 616px;
+  align-content: center;
+}
+section#aboutme div.wrap ul li {
+  
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+section#aboutme div.wrap ul li strong {
+  
+}
+/* 스킬 */
+section#skills {
+  
+  height: 100%;
+}
+section#skills div.wrap {
+  
+}
+section#skills div.wrap h2 {
+  
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+section#skills div.wrap h2::before {
+  content:"02";
+  font-size: 130px;
+  
+}
+section#skills div.wrap div {
+  
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+section#skills div.wrap div ul h3 {
+  
+  font-size: 50px;
+}
+section#skills div.wrap div ul.design {
+  
+}
+section#skills div.wrap div ul.design h3 {
+  
+  text-align: center;
+  margin-bottom: 50px;
+}
+section#skills div.wrap div ul.design ul {
+  
+  display: flex;
+  gap: 50px;
+}
+section#skills div.wrap div ul.design ul li {
+  
+  
+}
+section#skills div.wrap div ul.design ul li:nth-child(1) {
+  background-image: url(../img/ps.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+section#skills div.wrap div ul.design ul li:nth-child(2) {
+  background-image: url(../img/ai.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+section#skills div.wrap div ul.design ul li:nth-child(3) {
+  background-image: url(../img/figma.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+section#skills div.wrap div ul.coding {
+  
+}
+section#skills div.wrap div ul.coding h3 {
+  
+  text-align: center;
+  margin-bottom: 50px;
+}
+section#skills div.wrap div ul.coding ul {
+  
+  display: flex;
+  gap: 50px;
+}
+section#skills div.wrap div ul.coding ul li:nth-child(1) {
+  background-image: url(../img/html5.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+} 
+section#skills div.wrap div ul.coding ul li:nth-child(2) {
+  background-image: url(../img/css.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+section#skills div.wrap div ul.coding ul li:nth-child(3) {
+  background-image: url(../img/javascript.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+section#skills div.wrap div ul.coding ul li:nth-child(4) {
+  background-image: url(../img/jquery.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+section#skills div.wrap div ul.coding ul li:nth-child(5) {
+  background-image: url(../img/vscode.svg);
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+/* 포트폴리오 */
+section#portfolio {
+  height: 100%;
+}
+section#portfolio div.wrap {
+  
+}
+section#portfolio div.wrap h2 {
+  
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+section#portfolio div.wrap h2::before {
+  content:"03";
+  font-size: 130px;
+}
+section#portfolio div.wrap div.grid {
+  
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr auto auto 2fr;
+  row-gap: 87px;
+  display: inline-grid;
+  justify-items: center;
+}
+section#portfolio button.slick-next {
+  background-image: url(../img/ar.svg);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+}
+section#portfolio button.slick-prev {
+  
+  background-image: url(../img/al.svg);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+}
+section#portfolio button.slick-prev::before {
+  
+  content: "";}
+section#portfolio button.slick-next::before {
+ content:""; 
+}
+section#portfolio div.wrap div h3 {
+  
+  font-size: 30px;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+}
+section#portfolio div.wrap div figure {
+  
+  grid-column: 2;
+  grid-row: 1 / span 4;
+}
+section#portfolio div.wrap div figure img {
+  
+  width: 559px;
+}
+section#portfolio div.wrap div ul {
+  
+  grid-column: 1;
+  grid-row: 3;
+}
+section#portfolio div.wrap div ul li {
+  font-size: 20px;
+}
+section#portfolio div.wrap div ul li:first-child {
+  margin-bottom: 30px;
+}
+section#portfolio div.wrap div ul li a {
+  
+  width: fit-content;
+  padding: 10px;
+  transform: translateX(308px);
+  border: 1px solid;
+  border-radius: 43px;
+  margin-top: 74px;
+}
+/* 리뉴얼 */
+section#renewal {
+  height: 100%;
+}
+section#renewal button.slick-prev::before {
+  content: '';
+  /*! color: #222; */
+  width: 24px;
+  display: block;
+  height: 24px;
+}
+section#renewal button.slick-prev {  
+  left: 50px;
+  background-image: url(../img/al.svg);
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+}
+section#renewal button.slick-next::before {
+  /*! color: #222; */
+  content: '';
+}
+section#renewal button.slick-next {
+  
+  right: 50px;
+  background-image: url(../img/ar.svg);
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+}
+section#renewal button.slick-next .slick-next::before {
+  
+}
+section#renewal div.wrap {
+  
+}
+section#renewal div.wrap h2 {
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+section#renewal div.wrap h2::before {
+  content:"04";
+  font-size: 130px;
+} 
+section#renewal div.wrap div.reani {
+  
+}
+section#renewal div.wrap div.reani div {
+  flex-direction: column;
+  align-items: center;
+}
+section#renewal div.wrap div.reani div figure {
+  
+  display: flex;
+  justify-content: center;
+}
+section#renewal div.wrap div.reani div figure img {
+  
+  width: 836px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section#renewal div.wrap div.reani div ul {
+  
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+  gap: 10px;
+}
+section#renewal div.wrap div.reani div ul h3 {
+  
+  font-size: 30px;
+}
+section#renewal div.wrap div.reani div ul li {
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+section#renewal div.wrap div.reani div ul li a {
+  
+  border: 1px solid;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 33px;
+}
+/* 그래픽 */
+section#graphic {
+  height: 100%;
+  background-color: aliceblue;
+}
+section#graphic div.wrap {
+  height: 100%;
+}
+section#graphic div.wrap h2 {
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+section#graphic div.wrap h2::before {
+  content:"05";
+  font-size: 130px;
+  
+}
+section#graphic div.wrap div.content {
+  
+  height: 100%;
+  width: 1000px;
+}
+section#graphic div.wrap ul {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 700px;
+  gap: 10px;
+  overflow: hidden;
+}
+section#graphic div.wrap ul li {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+section#graphic div.wrap ul li:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+section#graphic div.wrap ul li:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+section#graphic div.wrap ul li:nth-child(3) {
+  grid-column: 3;
+  grid-row: 1;
+}
+section#graphic div.wrap ul li:nth-child(4) {
+  grid-column: 1;
+  grid-row: 2;
+}
+section#graphic div.wrap ul li:nth-child(5) {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+}
+section#graphic div.wrap ul li figure {
+  
+  height: 100%;
+}
+section#graphic div.wrap ul li figure img {  
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+section#graphic div.wrap ul li div.wrapText {
+  transition: 0.2s;
+}
+section#graphic div.wrap ul li:hover div.wrapText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  gap: 20px;
+}
+section#graphic div.wrap ul li div.wrapText a {
+  color: #fff;
+  border: 1px solid;
+  padding: 10px;
+}
+section#graphic div.wrap ul li div.wrapText p {
+ 
+  color: #fff;
+  font-size: 25px;
+}
+/* 컨택트 */
+section#contact {
+  height: 100%;
+  position: relative;
+}
+section#contact::before {
+  
+}
+section#contact div.wrap {
+  
+}
+section#contact div.wrap::before {
+  content:"";
+  display: block;
+  width: 1180px;
+  height: 500px;
+  background-color: aliceblue;
+  position: absolute;
+  top:268px;
+  right:0;
+  border-radius: 80px 0 0 80px;
+}
+section#contact div.wrap h2 {
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+section#contact div.wrap h2::before {
+  content:"06";
+  font-size: 130px;
+}
+section#contact div.wrap div {
+  justify-content: center;
+  gap: 20px;
+}
+section#contact div.wrap div ul {
+  
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1;
+  text-align: center;
+}
+section#contact div.wrap div ul p {
+  font-size: 20px;
+}
+section#contact div.wrap div ul li {
+  
+  font-size: 20px;
+}
+section#contact div.wrap div figure {
+  
+  z-index: 1;
+}
+section#contact div.wrap div figure img {
+  
+}
+/* rights */
+section#rights {
+  
+  width: 100%;
+  height: 130px;
+  background-color: #292929;
+}
+section#rights div {
+  
+  height: 100%;
+}
+section#rights div ul {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+section#rights div ul li {
+  
+  color: #fff;
+}
